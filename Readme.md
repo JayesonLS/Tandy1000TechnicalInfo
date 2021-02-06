@@ -1,6 +1,7 @@
-A Collection of Tandy 1000 Information Not Readily Available From Other Sources
-===============================================================================
+Tandy 1000 Technical Info
+=========================
 
+A Collection of Tandy 1000 Information Not Readily Available From Other Sources.
 If you would like to contribute, PM me and I will grant you write access.
 
 Tandy 1000A
