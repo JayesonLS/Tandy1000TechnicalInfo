@@ -12,16 +12,16 @@ off-the-shelf ICs into fewer, custom ICs. The 1000A board has none of the follow
 8244A program IO, 8284A clock generator, MC6845 CRT controller or four 82S153 PALs. It adds three
 custom ICs: U9, U25 and U64.
 
-U9, TACO111/3A-2125-BB/8079012 is a custom 40 pin DIP IC combining the functionality of the 8255A 
+**U9, TACO111/3A-2125-BB/8079012** is a custom 40 pin DIP IC combining the functionality of the 8255A 
 program IO, discrete keyboard control and shift register logic and some discrete floppy drive 
 controller support logic. For the pins checked so far, the pinout is identical to the Tandy 
 8075069 "Keyboard Interface" documented in the Tandy 1000 SX technical reference manual.
 
-U25, VC2578/8079011 is a custom 40 pin DIP IC combining the functionality of the 8284A clock generator,
+**U25, VC2578/8079011** is a custom 40 pin DIP IC combining the functionality of the 8284A clock generator,
 U46 System Timing Synthesizer PAL and other discrete control/timing logic. Unfortunately the pinout 
 appears to be very different from the timing control generator used in the 1000 SX.
 
-U64, VC2554/8079010 is a custom PLCC IC. It includes functionality of U53 Memory Address Decode PAL.
+**U64, VC2554/8079010** is a custom PLCC IC. It includes functionality of U53 Memory Address Decode PAL.
 Other functionality is not known. It is worth noting that functionality for the U80 Main I/O Address 
 Code PAL, U103 Video Address Decode and MC6845 CRT controller are otherwise unaccounted for. 
 
