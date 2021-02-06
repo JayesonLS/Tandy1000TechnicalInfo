@@ -53,14 +53,14 @@ This is a partial table comparing component identifying symbols between the 1000
 | U9               | ROM                          | U51          | ROM                        | BIOS ROM             |
 | U10              | ROM socket                   | -            | -                          | Extra ROM socket     |
 | U114             | 8253                         | U8           | 8532                       | Timer                |
-| -                | -                            | U64          | VC2554/8079010             | Custom PLCC          |
 | -                | -                            | U25          | VC2578/8079011             | Custom               |
 | U101             | 8255A                        | -            | -                          | Program IO           |
+| -                | -                            | U9           | TACO111/3A-2125-BB/8079012 | Custom               |
 | U45              | 8284A                        | -            | -                          | Clock generator      |
 | U46/U103/U53/U80 | 82S153 blue/red/white/orange | -            | -                          | Programmable logic   |
 | U108             | 3A-2084/8041087              | U66          | 3A-2084/8041087            | Custom gate array    |
+| -                | -                            | U64          | VC2554/8079010             | Custom PLCC          |
 | U88              | MC6845                       | -            | -                          | CRT controller       |
 | U76              | NCR-609-0380093/8079000      | U50          | NCR 604-0380300/80790001   | Custom video array   |
 | U69              | WD9216                       | U5           | WD9216                     | FDC data separator   |
 | U52              | R6765P                       | U43          | VL6765-04PC                | 8782 FDC             |
-| -                | -                            | U9           | TACO111/3A-2125-BB/8079012 | Custom               |
