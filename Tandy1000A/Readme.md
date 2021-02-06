@@ -51,7 +51,7 @@ This is a partial table comparing component identifying symbols between the 1000
 | -                | -                            | U29          | 8087 socket                | Math co pro          |
 | U9               | ROM                          | U51          | ROM                        | BIOS ROM             |
 | U10              | ROM socket                   | -            | -                          | Extra ROM socket     |
-| U114             | 8253                         | U8           | 8352                       | Timer                |
+| U114             | 8253                         | U8           | 8532                       | Timer                |
 | -                | -                            | U64          | VC2554/8079010             | Custom PLCC          |
 | -                | -                            | U25          | VC2578/8079011             | Custom               |
 | U101             | 8255A                        | -            | -                          | Program IO           |
