@@ -46,6 +46,8 @@ symbols are prefixed with an underscore. Circuit and custom pinouts determined b
 original Tandy 1000 mainboard; referencing the technical reference manuals for the original Tandy 
 1000 and the Tandy 1000 SX for clues; and, lots of probing.
 
+[Latest schematic PDF](Schematic/Tandy1000A.pdf)
+
 IC Component Symbols Comparison
 -------------------------------
 
