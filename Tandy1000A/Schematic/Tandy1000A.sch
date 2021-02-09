@@ -601,11 +601,11 @@ Wire Wire Line
 Wire Wire Line
 	13450 5500 13700 5500
 Wire Wire Line
-	13450 4450 13700 4450
+	13450 4450 13600 4450
 Wire Wire Line
-	13700 4450 13700 4550
+	13600 4450 13600 4550
 Wire Wire Line
-	13700 4550 13800 4550
+	13600 4550 13800 4550
 Wire Wire Line
 	13600 4950 13450 4950
 Wire Wire Line
@@ -970,4 +970,243 @@ Wire Wire Line
 	5350 5950 5350 5750
 Wire Wire Line
 	5350 5750 5450 5750
+Text Notes 4400 5400 0    50   ~ 0
+->???
+Wire Wire Line
+	10650 4400 11450 4400
+Wire Wire Line
+	11450 4400 11450 3050
+Wire Wire Line
+	11450 3050 9000 3050
+Wire Wire Line
+	9000 3050 9000 2050
+Wire Wire Line
+	9000 2050 7250 2050
+Text GLabel 9550 4400 0    50   Input ~ 0
+BREQ*
+Wire Wire Line
+	9650 4400 9550 4400
+Text Label 7350 2050 0    50   ~ 0
+BREQ*_IN
+Wire Wire Line
+	3150 2950 2550 2950
+Wire Wire Line
+	2550 2950 2550 1000
+Wire Wire Line
+	2550 1000 650  1000
+Wire Wire Line
+	650  1000 650  2950
+Wire Wire Line
+	650  2950 950  2950
+$Comp
+L Connector_Generic:Conn_01x01 E8
+U 1 1 60268E26
+P 350 2950
+F 0 "E8" H 268 2725 50  0000 C CNN
+F 1 "Conn_01x01" H 268 2816 50  0000 C CNN
+F 2 "" H 350 2950 50  0001 C CNN
+F 3 "~" H 350 2950 50  0001 C CNN
+	1    350  2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JE9
+U 1 1 6026903C
+P 350 3150
+F 0 "JE9" H 250 3350 50  0000 C CNN
+F 1 "Conn_01x01" H 250 3250 50  0000 C CNN
+F 2 "" H 350 3150 50  0001 C CNN
+F 3 "~" H 350 3150 50  0001 C CNN
+	1    350  3150
+	-1   0    0    1   
+$EndComp
+Text Notes 200  3300 1    50   ~ 0
+Jumper if 8087\nnot present
+Connection ~ 650  2950
+Text GLabel 550  3450 0    50   Input ~ 0
+RG_GT*
+Wire Wire Line
+	650  2950 550  2950
+Wire Wire Line
+	650  3150 650  3450
+Wire Wire Line
+	650  3450 550  3450
+Wire Wire Line
+	550  3150 650  3150
+Connection ~ 650  3150
+Wire Wire Line
+	650  3150 950  3150
+Text GLabel 7350 2250 2    50   Input ~ 0
+RG_GT*
+Wire Wire Line
+	7350 2250 7250 2250
+$Comp
+L 74xx:74LS244 U36
+U 1 1 602A9CF3
+P 14950 8250
+F 0 "U36" H 14950 9231 50  0000 C CNN
+F 1 "74LS244" H 14950 9140 50  0000 C CNN
+F 2 "" H 14950 8250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 14950 8250 50  0001 C CNN
+	1    14950 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack03_SIP RP1
+U 1 1 602C8D7F
+P 17000 8100
+F 0 "RP1" V 17008 8305 50  0000 L CNN
+F 1 "33R" V 17099 8305 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 17575 8100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17000 8100 50  0001 C CNN
+	1    17000 8100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15450 8350 16250 8350
+Wire Wire Line
+	16250 8350 16250 8100
+Wire Wire Line
+	16250 8100 16800 8100
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise U?
+U 1 1 602D9542
+P 17350 9650
+F 0 "U?" H 17400 10167 50  0000 C CNN
+F 1 "DRAM" H 17400 10076 50  0000 C CNN
+F 2 "" H 17350 9650 50  0001 C CNN
+F 3 "~" H 17350 9650 50  0001 C CNN
+	1    17350 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16800 8200 16700 8200
+Wire Wire Line
+	16700 8200 16700 8850
+Wire Wire Line
+	16700 8850 17950 8850
+Wire Wire Line
+	17950 8850 17950 9450
+Wire Wire Line
+	17950 9450 17650 9450
+Text Label 17750 9450 0    50   ~ 0
+CAS*
+Text GLabel 7350 2350 2    50   Input ~ 0
+_CASX*
+Wire Wire Line
+	7350 2350 7250 2350
+Text GLabel 14350 8350 0    50   Input ~ 0
+_CASX*
+Wire Wire Line
+	14450 8350 14350 8350
+Wire Wire Line
+	17150 9750 16600 9750
+Wire Wire Line
+	16600 9750 16600 8500
+Wire Wire Line
+	16600 8500 16800 8500
+Text Label 17050 9750 2    50   ~ 0
+RAS*
+Wire Wire Line
+	15450 8250 16350 8250
+Wire Wire Line
+	16350 8250 16350 8400
+Wire Wire Line
+	16350 8400 16800 8400
+Text GLabel 14350 8250 0    50   Input ~ 0
+_RASX*
+Wire Wire Line
+	14450 8250 14350 8250
+Text GLabel 7350 2950 2    50   Input ~ 0
+_RASX*
+Wire Wire Line
+	7350 2950 7250 2950
+Text Notes 8350 3000 2    50   ~ 0
+Also to U64 PLCC
+$Comp
+L 74xx:74LS374 U5
+U 1 1 603857F5
+P 17700 3250
+F 0 "U5" H 17700 4231 50  0000 C CNN
+F 1 "74LS374" H 17700 4140 50  0000 C CNN
+F 2 "" H 17700 3250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 17700 3250 50  0001 C CNN
+	1    17700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS374 U22
+U 1 1 603889D2
+P 17700 5250
+F 0 "U22" H 17700 6231 50  0000 C CNN
+F 1 "74LS374" H 17700 6140 50  0000 C CNN
+F 2 "" H 17700 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 17700 5250 50  0001 C CNN
+	1    17700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17200 3650 17100 3650
+Wire Wire Line
+	17100 3650 17100 5650
+Wire Wire Line
+	17100 5650 17200 5650
+Wire Wire Line
+	17100 5650 15050 5650
+Wire Wire Line
+	15050 5650 15050 6100
+Wire Wire Line
+	15050 6100 11850 6100
+Wire Wire Line
+	11850 6100 11850 5300
+Wire Wire Line
+	11850 5300 8750 5300
+Wire Wire Line
+	8750 5300 8750 2850
+Wire Wire Line
+	8750 2850 7250 2850
+Connection ~ 17100 5650
+$Comp
+L 74xx:74LS374 U6
+U 1 1 603A91A3
+P 19150 3900
+F 0 "U6" H 19150 4881 50  0000 C CNN
+F 1 "74LS374" H 19150 4790 50  0000 C CNN
+F 2 "" H 19150 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 19150 3900 50  0001 C CNN
+	1    19150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS374 U23
+U 1 1 603A9AD1
+P 19150 5900
+F 0 "U23" H 19150 6881 50  0000 C CNN
+F 1 "74LS374" H 19150 6790 50  0000 C CNN
+F 2 "" H 19150 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 19150 5900 50  0001 C CNN
+	1    19150 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18650 4300 18550 4300
+Wire Wire Line
+	18550 4300 18550 6300
+Wire Wire Line
+	18550 6300 18650 6300
+Connection ~ 18550 6300
+Wire Wire Line
+	7250 2550 8800 2550
+Wire Wire Line
+	8800 2550 8800 5250
+Wire Wire Line
+	8800 5250 11900 5250
+Wire Wire Line
+	11900 5250 11900 6300
+Wire Wire Line
+	11900 6300 18550 6300
+Text Notes 7300 2550 0    50   ~ 0
+VSRD* or VSWR*?
+Text Notes 7300 2850 0    50   ~ 0
+VSRD* or VSWR*?
 $EndSCHEMATC
