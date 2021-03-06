@@ -1,6 +1,10 @@
 Material Specific to the Tandy 1000A (25-1000A)
 ===============================================
 
+**UPDATE:** _The service manual supplement has (mostly) turned up since starting this
+project. Most information here will be redundant. See
+[Archive.org](https://archive.org/details/tandy-1000-a-service-manual-supplement)_
+
 The 1000A is a revised version of the original Tandy 1000. The primary difference is a
 substantially changed mainboard.
 
