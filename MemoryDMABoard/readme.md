@@ -9,3 +9,5 @@ operation.
 The original schematic is missing component values for the passives and
 contains an error in one place. The schematic here may have errors of its
 own.
+
+[Latest schematic PDF](Schematic/MemoryDMABoard.pdf)
