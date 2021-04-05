@@ -6326,20 +6326,4 @@ Wire Notes Line
 	3250 600  9250 600 
 Wire Notes Line
 	9250 600  9250 1800
-Wire Notes Line width 39 style solid
-	9300 2550 9950 2550
-Wire Notes Line width 39 style solid
-	9950 2550 9950 4950
-Wire Notes Line width 39 style solid
-	9950 4950 17550 4950
-Wire Notes Line width 39 style solid
-	17550 4950 17550 14700
-Wire Notes Line width 39 style solid
-	17550 14700 22800 14700
-Wire Notes Line width 39 style solid
-	22800 14700 22800 550 
-Wire Notes Line width 39 style solid
-	22800 550  9300 550 
-Wire Notes Line width 39 style solid
-	9300 550  9300 2550
 $EndSCHEMATC
