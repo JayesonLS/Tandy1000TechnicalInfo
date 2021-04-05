@@ -5981,7 +5981,7 @@ Text GLabel 14500 3400 0    50   Input ~ 0
 D00
 Text GLabel 15900 2100 2    50   Input ~ 0
 _8237_HRQ
-Text GLabel 15900 2900 2    50   Input ~ 0
+Text GLabel 15900 2900 2    39   Input ~ 0
 _8237_~EOP
 Text GLabel 14500 2200 0    50   Input ~ 0
 DMACLK
